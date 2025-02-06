@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(ProjectName).xml</DocumentationFile>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MenusConsola_David_Casasola_Vílchez</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>David Casasola Vílchez.</Authors>
+    <Company>IES Portada Alta.</Company>
+    <Description>Librería de Menú con marco y usabilidad con flechas del teclado.</Description>
+    <PackageTags>utilidad;nuget</PackageTags>
+  </PropertyGroup>
+
+</Project>
